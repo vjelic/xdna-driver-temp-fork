@@ -23,6 +23,6 @@ jobs:
         with:
           lang: 'cpp'
           debug: 'false'
-          upload: 'false'
+          upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
