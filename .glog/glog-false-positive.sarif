@@ -61,6 +61,46 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/driver/amdxdna/aie2_error.c"
+                },
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 4,
+                  "endLine": 204,
+                  "endColumn": 8,
+                  "charOffset": 5307,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "c"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/driver/amdxdna/aie2_pci.c"
                 },
                 "region": {
@@ -109,166 +149,6 @@
                   "endLine": 919,
                   "endColumn": 40,
                   "charOffset": 24547,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "c"
-                }
-              }
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
-        {
-          "ruleId": "DS176209",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Suspicious comment"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/driver/amdxdna/amdxdna_ctx.h"
-                },
-                "region": {
-                  "startLine": 185,
-                  "startColumn": 3,
-                  "endLine": 185,
-                  "endColumn": 7,
-                  "charOffset": 4614,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "c"
-                }
-              }
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
-        {
-          "ruleId": "DS176209",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Suspicious comment"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/shim/umq/hwctx.cpp"
-                },
-                "region": {
-                  "startLine": 26,
-                  "startColumn": 5,
-                  "endLine": 26,
-                  "endColumn": 9,
-                  "charOffset": 642,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "cpp"
-                }
-              }
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
-        {
-          "ruleId": "DS176209",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Suspicious comment"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/shim/umq/hwctx.cpp"
-                },
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 5,
-                  "endLine": 18,
-                  "endColumn": 9,
-                  "charOffset": 445,
-                  "charLength": 4,
-                  "snippet": {
-                    "text": "TODO",
-                    "rendered": {
-                      "text": "TODO",
-                      "markdown": "`TODO`"
-                    }
-                  },
-                  "sourceLanguage": "cpp"
-                }
-              }
-            }
-          ],
-          "properties": {
-            "DevSkimSeverity": "ManualReview",
-            "DevSkimConfidence": "High",
-            "tags": [
-              "Hygiene.Comment.Suspicious"
-            ]
-          }
-        },
-        {
-          "ruleId": "DS176209",
-          "kind": "fail",
-          "level": "note",
-          "message": {
-            "text": "Suspicious comment"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/driver/amdxdna/aie2_error.c"
-                },
-                "region": {
-                  "startLine": 204,
-                  "startColumn": 4,
-                  "endLine": 204,
-                  "endColumn": 8,
-                  "charOffset": 5307,
                   "charLength": 4,
                   "snippet": {
                     "text": "TODO",
@@ -421,6 +301,126 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
+                  "uri": "src/shim/umq/hwctx.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 5,
+                  "endLine": 26,
+                  "endColumn": 9,
+                  "charOffset": 642,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/shim/umq/hwctx.cpp"
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 5,
+                  "endLine": 18,
+                  "endColumn": 9,
+                  "charOffset": 445,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "cpp"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/driver/amdxdna/amdxdna_drm.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 3,
+                  "endLine": 21,
+                  "endColumn": 7,
+                  "charOffset": 421,
+                  "charLength": 4,
+                  "snippet": {
+                    "text": "TODO",
+                    "rendered": {
+                      "text": "TODO",
+                      "markdown": "`TODO`"
+                    }
+                  },
+                  "sourceLanguage": "c"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "DevSkimSeverity": "ManualReview",
+            "DevSkimConfidence": "High",
+            "tags": [
+              "Hygiene.Comment.Suspicious"
+            ]
+          }
+        },
+        {
+          "ruleId": "DS176209",
+          "kind": "fail",
+          "level": "note",
+          "message": {
+            "text": "Suspicious comment"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
                   "uri": "src/driver/amdxdna/amdxdna_gem_of.c"
                 },
                 "region": {
@@ -461,14 +461,14 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/driver/amdxdna/amdxdna_drm.h"
+                  "uri": "src/driver/amdxdna/amdxdna_ctx.h"
                 },
                 "region": {
-                  "startLine": 21,
+                  "startLine": 185,
                   "startColumn": 3,
-                  "endLine": 21,
+                  "endLine": 185,
                   "endColumn": 7,
-                  "charOffset": 421,
+                  "charOffset": 4614,
                   "charLength": 4,
                   "snippet": {
                     "text": "TODO",
